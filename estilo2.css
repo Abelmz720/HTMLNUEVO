@@ -1,0 +1,139 @@
+/* He tenido que buscar esta forma de añadir el fondo a la página web */
+header {
+    background-image: url('imagenesadicionales/ProteinBuddy_Advertisement.png');
+
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto; /* Header, Nav, Main, Footer */
+    grid-template-columns: 100%; /* Single column layout */
+    min-height: 100vh; /* Ensure full height */
+}
+
+/* Estilos del encabezado */
+header {
+    /*background-color: #3cb371;*/
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-row: 1;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #2e8b57;
+    padding: 10px;
+    text-align: center;
+    grid-row: 2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos del contenido principal */
+main {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    grid-row: 3;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.multimedia-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.google-maps {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.google-maps a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.google-maps a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    grid-row: 4;
+}
+
+footer .license {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer .license img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .ods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer .ods img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .w3c-validation {
+    margin-top: 10px;
+}
+
+footer .w3c-validation img {
+    height: 30px;
+}

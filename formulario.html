@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="imagenesadicionales/nuevobotefavicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="author" content="Abel Martínez Zafra">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo3.css">
+    <title>Formulario de Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+    </header>
+
+    <main class="form-container">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" size="50" maxlength="100" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" size="50" maxlength="100" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Asunto</legend>
+                <label for="asunto">Seleccione un asunto:</label>
+                <select id="asunto" name="asunto">
+                    <option value="consulta">Consulta general</option>
+                    <option value="soporte">Soporte técnico</option>
+                    <option value="queja">Queja o sugerencia</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensaje</legend>
+                <label for="mensaje">Escriba su mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="50" required></textarea>
+            </fieldset>
+
+            <fieldset class="actions">
+                <legend>Acciones</legend>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+
+        <p class="back-link">
+            <a href="index.html">Volver a la página principal</a>
+        </p>
+    </main>
+
+   <footer>
+    <p>© 2024 ProteinBuddy | Todos los derechos reservados</p>
+
+    <div class="ods">
+        <img src="imagenesadicionales/numero8ods.png" alt="ODS 8">
+        <img src="imagenesadicionales/numero3ods.png" alt="ODS 3">
+        <img src="imagenesadicionales/numero12ods.png" alt="ODS 12">
+    </div>
+
+    <div class="license">
+        <img src="imagenesadicionales/commons.png" alt="Creative Commons Logo">
+        <p>Este contenido está licenciado bajo una 
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+                Licencia Creative Commons Atribución 4.0 Internacional
+            </a>.
+        </p>
+    </div>
+
+    <div class="w3c-validation">
+        <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="https://www.w3.org/Icons/valid-html401" alt="¡HTML válido!" style="border:0; width:88px; height:31px;">
+        </a>
+    </div>
+</footer>
+
+</body>
+
+</html>
